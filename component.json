@@ -1,0 +1,18 @@
+{
+  "name": "Straight Razor",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "requirejs": "~2.1.5",
+    "underscore": "~1.4.4",
+    "backbone.marionette": "~1.0.2",
+    "handlebars.js": "~1.0.10",
+    "require-handlebars-plugin": "~0.4.0"
+  },
+  "main": "main.js"
+}

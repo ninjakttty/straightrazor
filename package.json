@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap",
+  "version": "0.0.1",
+  "description": "Bootstrap",
+  "homepage": "https://github.com/ninjakttty/bootstrap",
+  "main": "app.js",
+  "repository": "",
+  "author": "Yuri A. Parsons",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "",
+  "devDependencies": {
+    "grunt-nodemon": "0.0.0",
+    "grunt": "~0.4.1",
+    "grunt-todos": "~0.1.0"
+  },
+  "dependencies": {
+    "grunt-bower-hooks": "~0.3.0",
+    "grunt-contrib-less": "~0.5.0",
+    "requirejs": "~2.1.5",
+    "express": "~3.1.1",
+    "express-livereload": "0.0.24",
+    "bower": "~0.8.6",
+    "livereload": "~0.3.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt": "~0.4.1",
+    "underscore": "~1.4.4",
+    "restify": "~2.4.1",
+    "handlebars": "~1.0.10",
+    "grunt-lib-contrib": "~0.6.1"
+  }
+}
