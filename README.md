@@ -5,7 +5,7 @@ Straight Razor is a bootstrap framework that cuts out lots of time setting up ne
 
 This is a bootstrap framework that is takes care of setting up all the boring parts of a new project
 
-Get started in just 3 easy steps
+Get started in just 3 easy steps (you need node installed, brew install node)
 
 	git clone https://github.com/ninjakttty/straightrazor.git
 
