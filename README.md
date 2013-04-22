@@ -7,13 +7,13 @@ This is a bootstrap framework that is takes care of setting up all the boring pa
 
 Get started in just 3 easy steps
 
-  	git clone https://github.com/ninjakttty/straightrazor.git
+	git clone https://github.com/ninjakttty/straightrazor.git
 
-		cd straightrazor  ( This doesn't count as a step )
+	cd straightrazor  ( This doesn't count as a step )
 
-		npm install && bower install
-
-		grunt
+	npm install && bower install
+	
+	grunt
 
 this will setup a basic frame work witha simple static server for the front end
 
@@ -26,9 +26,9 @@ this will setup a basic frame work witha simple static server for the front end
 
 All part of the package out of the box and loaded with requirejs, but easily replacable if you want
 
-		bower install <*package name*>
-
-		grunt bower
+	bower install <*package name*>
+	
+	grunt bower
 
 ##  There's more
 
