@@ -4,7 +4,8 @@ require.config({
 		"backbone.marionette": "/scripts/vendor/backbone.marionette/lib/backbone.marionette",
 		"jquery": "/scripts/vendor/jquery/jquery",
 		"underscore": "/scripts/vendor/underscore/underscore",
-		"require-handlebars-plugin": "/scripts/vendor/require-handlebars-plugin/require-handlebars-plugin"
+		"require-handlebars-plugin": "/scripts/vendor/require-handlebars-plugin/require-handlebars-plugin",
+		"handlebars.js": "/scripts/vendor/handlebars.js/handlebars.js"
 	},
 	"shim": {
 		"backbone": {

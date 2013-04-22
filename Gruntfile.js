@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       port: 3000,
       app: "public",
       livereload: true,
-      openBrowser: "Google Chrome Canary" // Google Chrome Canary, Google Chrome, Safari, Firefox , or false
+      openBrowser: "Google Chrome" // Google Chrome Canary, Google Chrome, Safari, Firefox , or false
     },
     watch: {
       less: {

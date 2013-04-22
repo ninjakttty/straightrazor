@@ -10,8 +10,8 @@ define(['backbone', 'templates'], function(Backbone, Handlebars) {
 		},
 		render: function(data){
 			console.log( 'render' );
-			var template = Handlebars['main.hbs']({data: data});
-			this.$el.html(template);
+			var template = Handlebars['main.hbs'];
+			this.$el.html(template({data: data}));
 			return this;
 		}
 	});
