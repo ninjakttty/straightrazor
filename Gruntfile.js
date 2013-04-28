@@ -74,38 +74,25 @@ module.exports = function(grunt) {
       }
     },
     nodemon: {
-        development: {
-          options: {
-            file: 'server/app.js',
-            ignoredFiles: ['README.md', 'node_modules/**'],
-            watchedFolders: ['server'],
-            debug: true,
-            delayTime: 1
-          }
-        }
-      },
-      todos: {
-        options: {},
-        src: ['server/**/*js', 'public/scripts/**/*js', '!public/scripts/vendor/**']
-      },
-
-      handlebars: {
-        dist: {
-          options: {
-            amd: true
-          },
-          files: {
-            "public/scripts/templates.js": ["assets/templates/**/*.hbs"]
-          }
+      development: {
+        options: {
+          file: 'server/app.js',
+          ignoredFiles: ['README.md', 'node_modules/**'],
+          watchedFolders: ['server'],
+          debug: true,
+          delayTime: 1
         }
       }
-
+    },
+    todos: {
+      options: {},
+      src: ['server/**/*js', 'public/scripts/**/*js', '!public/scripts/vendor/**']
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-handlebars');
   grunt.loadNpmTasks('grunt-todos');
   grunt.loadNpmTasks('grunt-nodemon');
   grunt.loadTasks('tasks');
