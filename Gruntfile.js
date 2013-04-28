@@ -97,7 +97,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-nodemon');
   grunt.loadTasks('tasks');
 
-  grunt.registerTask('startDev', ['todos', 'less', 'handlebars', 'parallel']);
+  grunt.registerTask('startDev', ['todos', 'less', 'parallel']);
 
   // Default task.
   grunt.registerTask('default', ['startDev']);
