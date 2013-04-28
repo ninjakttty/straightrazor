@@ -28,6 +28,15 @@
     "underscore": "~1.4.4",
     "restify": "~2.4.1",
     "handlebars": "~1.0.10",
-    "grunt-lib-contrib": "~0.6.1"
+    "grunt-lib-contrib": "~0.6.1",
+    "grunt-contrib-handlebars": "~0.5.8"
+  },
+  "jam": {
+    "packageDir": "public/scripts/vendor",
+    "baseUrl": "public",
+    "dependencies": {
+      "jquery": ">1.4.2",
+      "backbone.marionette": "1.0.2"
+    }
   }
 }

@@ -57,7 +57,7 @@ module.exports = function(grunt) {
       port: 3000,
       app: "public",
       livereload: true,
-      openBrowser: "Google Chrome" // Google Chrome Canary, Google Chrome, Safari, Firefox , or false
+      openBrowser: "Google Chrome Canary" // Google Chrome Canary, Google Chrome, Safari, Firefox , or false
     },
     watch: {
       less: {
@@ -93,8 +93,7 @@ module.exports = function(grunt) {
       handlebars: {
         dist: {
           options: {
-            amd: true,
-            handlebarPath: '/scripts/vendor/require-handlebars-plugin/Handlebars.js'
+            amd: true
           },
           files: {
             "public/scripts/templates.js": ["assets/templates/**/*.hbs"]
@@ -107,11 +106,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-handlebars');
   grunt.loadNpmTasks('grunt-todos');
   grunt.loadNpmTasks('grunt-nodemon');
   grunt.loadTasks('tasks');
 
-  grunt.registerTask('startDev', ['todos', 'bower', 'less', 'handlebars', 'parallel']);
+  grunt.registerTask('startDev', ['todos', 'less', 'handlebars', 'parallel']);
 
   // Default task.
   grunt.registerTask('default', ['startDev']);
